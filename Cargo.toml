@@ -1,0 +1,18 @@
+[package]
+name = "talk"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+bevy = { version = "0.18", features = [
+    "debug",
+    # "dynamic_linking",
+] }
+objc2-foundation = "0.3.2"
+objc2-ui-kit = "0.3.2"
+objc2-user-notifications = "0.3.2"
+block2 = "0.6.2"
+objc2 = "0.6.4"
+dispatch2 = "0.3.1"
+embed_plist = "1.0"

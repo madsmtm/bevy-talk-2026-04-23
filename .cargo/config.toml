@@ -1,0 +1,6 @@
+[build]
+target = "aarch64-apple-ios-sim"
+
+# cargo install cargo-apple-runner
+[target.'cfg(target_vendor = "apple")']
+runner = "cargo-apple-runner"
